@@ -29,11 +29,14 @@ dependencies {
     compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-config-client"
+    compile "io.github.resilience4j:resilience4j-spring-boot2:1.2.0"
 
 
     compile "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.7.0"
     compile "taglibs:standard:1.1.2"
     compile "javax.servlet:jstl:1.2"
+//    compile "javax.xml.bind:jaxb-api:2.3.1"
+//    compile "org.javassist:javassist:3.27.0-GA"
 
     compile "org.apache.tomcat.embed:tomcat-embed-jasper:8.5.6"
 
